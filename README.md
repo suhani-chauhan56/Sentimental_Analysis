@@ -7,7 +7,7 @@ The project focuses on **sentiment analysis** (positive, negative, neutral) of u
 
 ## 📂 Dataset  
 
-The dataset used in this project is available on Kaggle:  
+The dataset used in this project is available on Kaggle: 
 👉 [2024 U.S. Election Sentiment on X (Twitter)](https://www.kaggle.com/datasets/emirhanai/2024-u-s-election-sentiment-on-x)  
 
 It contains posts, comments, and sentiment-related attributes that can be used to study political opinions.
