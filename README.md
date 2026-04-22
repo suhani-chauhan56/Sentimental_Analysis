@@ -1,70 +1,131 @@
-# 🗳️ Political Sentiment Analysis on 2024 U.S. Elections  
+# 🗳️  Sentiment Analysis  
 
-Welcome to my **Data Science project** where I analyze social media discussions around the **2024 U.S. Elections** 🇺🇸.  
-The project focuses on **sentiment analysis** (positive, negative, neutral) of user posts, using **Python, Pandas, NumPy, Matplotlib, and Seaborn** to explore and visualize the data.
+Welcome to my **Data Science portfolio**, where I explore public opinion around the **2024 U.S. Elections** 🇺🇸 using social media data.  
+This repository showcases **two sentiment analysis projects**, progressing from basic EDA to advanced Machine Learning models.
+
+---
+
+## 📌 Projects Overview  
+
+### 🔹 Project 1: Election Sentiment Analysis (EDA Focus)  
+This project analyzes social media discussions related to the **2024 U.S. Elections** using **Exploratory Data Analysis (EDA)** and visualization techniques.
+
+### 🔹 Project 2: Twitter Post Sentiment Analysis (ML-Based)  
+👉 GitHub Repository:  
+https://github.com/suhani-chauhan56/Sentimental_Analysis  
+
+This is a **more advanced project** that goes beyond EDA and includes **Machine Learning models** for sentiment classification.
 
 ---
 
 ## 📂 Dataset  
 
-The dataset used in this project is available on Kaggle:  
-👉 [2024 U.S. Election Sentiment on X (Twitter)](https://www.kaggle.com/datasets/emirhanai/2024-u-s-election-sentiment-on-x)  
+Dataset used for Project 1:  
+👉 https://www.kaggle.com/datasets/emirhanai/2024-u-s-election-sentiment-on-x  
 
-It contains posts, comments, and sentiment-related attributes that can be used to study political opinions.
-
----
-
-## 🎯 Project Goals  
-
-- Clean and preprocess raw election data 🧹  
-- Perform **Exploratory Data Analysis (EDA)** to find hidden insights 📊  
-- Analyze posting patterns (time of day, weekdays, word usage) ⏰  
-- Visualize sentiment distribution using graphs and charts 📈  
-- Understand the public's mood around the 2024 elections 🗳️  
+- Contains tweets/posts, timestamps, and sentiment labels  
+- Useful for analyzing trends, patterns, and public opinion  
 
 ---
 
-## 🛠️ Tools & Skills Used  
+## 🎯 Objectives  
+
+- Clean and preprocess raw social media data 🧹  
+- Perform **EDA** to uncover hidden insights 📊  
+- Analyze posting patterns (time, weekday, engagement) ⏰  
+- Visualize sentiment trends using graphs 📈  
+- Build **Machine Learning models** for sentiment prediction 🤖  
+- Compare basic analysis vs advanced predictive modeling  
+
+---
+
+## 🛠️ Tools & Technologies  
 
 - **Languages:** Python 🐍  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
-- **Techniques:** Data Cleaning, Text Preprocessing, EDA, Visualization  
-- **Other Skills:** SQL, Excel, Power BI (for extended analysis/visualization)  
+- **Machine Learning:** Scikit-learn (Project 2)  
+- **Techniques:**  
+  - Data Cleaning & Preprocessing  
+  - Text Processing (Stopwords, Tokenization)  
+  - Exploratory Data Analysis  
+  - Data Visualization  
+  - Classification Models  
+- **Other Tools:** SQL, Excel, Power BI  
 
 ---
 
-## 📊 Workflow  
+## 🔄 Workflow  
+
+### 📍 Project 1 (EDA-Based)  
 
 1. **Data Cleaning**  
-   - Removed duplicates, missing values, and irrelevant columns  
-   - Converted text to lowercase and removed punctuation/stopwords  
-   - Added new features like text length, posting date, and weekday  
+   - Removed duplicates and null values  
+   - Cleaned text (lowercase, punctuation removal, stopwords removal)  
+   - Feature engineering (text length, date, weekday)  
 
-2. **Exploratory Data Analysis (EDA)**  
-   - Sentiment distribution across posts  
-   - Posting trends by time of day and weekday  
-   - Word frequency, bigrams, and hashtags analysis  
-   - Correlation between sentiment and post length  
+2. **Exploratory Data Analysis**  
+   - Sentiment distribution  
+   - Posting trends by time and weekday  
+   - Word frequency and hashtag analysis  
+   - Relationship between sentiment and text length  
 
 3. **Visualization**  
-   - Bar charts for sentiment distribution  
-   - Line charts for sentiment trends over time  
-   - Violin plots for text length by sentiment  
-   - Heatmaps for correlation between features  
-   - Top words and hashtags visualizations  
+   - Bar charts (sentiment distribution)  
+   - Line charts (time trends)  
+   - Violin plots (text length vs sentiment)  
+   - Heatmaps (feature correlation)  
 
 ---
 
-## 📌 Key Insights  
+### 📍 Project 2 (Advanced ML-Based)  
 
-- Most posts are **neutral**, but spikes of **positive** or **negative** sentiment occur near important political events 📆  
-- Users post more actively during **evenings** 🌙 compared to mornings 🌅  
-- Certain hashtags dominate election discussions (#Biden, #Trump, #Vote2024) 🔥  
-- Negative posts tend to be slightly longer than positive ones ✍️  
+- Data preprocessing and feature extraction  
+- Text vectorization (TF-IDF / Count Vectorizer)  
+- Model training and evaluation  
+- Algorithms used may include:  
+  - Logistic Regression  
+  - Naive Bayes  
+  - Support Vector Machine (SVM)  
+- Performance comparison of models  
+- Improved sentiment prediction accuracy  
+
+---
+
+## 📊 Key Insights  
+
+- Majority of posts are **neutral**, with spikes during major events 📆  
+- Users are more active during **evenings** 🌙  
+- Trending hashtags dominate discussions (#Biden, #Trump, #Vote2024) 🔥  
+- Negative posts are generally **longer** than positive ones ✍️  
+- Machine Learning models significantly improve sentiment classification accuracy 🤖  
 
 ---
 
 ## 📷 Example Visualizations  
 
-📌 Sentiment Distribution  
+- Sentiment distribution graphs  
+- Time-based activity charts  
+- Word clouds and hashtag frequency  
+- Correlation heatmaps  
 
+---
+
+## 🚀 Future Improvements  
+
+- Deep Learning models (LSTM, BERT)  
+- Real-time sentiment tracking using APIs  
+- Dashboard integration (Power BI / Streamlit)  
+- Topic modeling (LDA) for deeper insights  
+
+---
+
+## 🤝 Contributing  
+
+Contributions, suggestions, and feedback are welcome!  
+
+---
+
+## ⭐ Acknowledgment  
+
+- Kaggle dataset contributors  
+- Open-source Python libraries  
